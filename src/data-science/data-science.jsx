@@ -11,7 +11,7 @@ function DataScience() {
   const accordionData = [
     {
       title: 'Experience',
-      content: `I have experience developing full-stack web applications using React.js, Tailwind CSS, and Python, focusing on performance optimization and user experience. At Viral Marketer LLC, I led a software development team, building custom web pages and upgrading outdated company software, integrating data-driven features to enhance functionality and streamline client operations.`
+      content: `I have experience developing data science solutions using Python, Pandas, and TensorFlow, with a focus on data analysis and predictive modeling. My recent projects involved building machine learning models to forecast trends and analyze large datasets for use by medical and scientific communities.`
     },
     {
       title: 'Future Goals',
@@ -21,7 +21,7 @@ function DataScience() {
 
     return (
       <>
-      <div className="design-container flex flex-col gap-x-10 ml-0 mt-20">
+      <div className="design-container flex flex-col gap-x-10 ml-0 mt-10">
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 03:</div>

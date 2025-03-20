@@ -10,7 +10,7 @@ function Hero() {
         I look to solve real-world problems through clean, efficient, and scalable code.</div>
          <div className="button-container flex flex-row justify-center">
             <button className="resume-button" role="button" target='blank()'>My Resume</button>
-            <button className="resume-button" role="button">Contact Me</button>
+            <button className="resume-button" role="button" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact Me</button>
          </div> 
       </div>
       </>
