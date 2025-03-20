@@ -1,0 +1,17 @@
+Website sections:
+- Hero
+- Web dev
+- Data Science/ML
+- Fintech
+- Contact Me
+
+
+
+Also Include:
+- Parallax background
+
+Hero section:
+- My name
+- Short description
+- Resume button
+- preferably an image
