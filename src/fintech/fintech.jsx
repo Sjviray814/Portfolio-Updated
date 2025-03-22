@@ -30,27 +30,22 @@ function Fintech() {
           
         </div>
 
-      <div className="design-content flex flex-row mt-3 gap-10">
-        <div className="design-content flex flex-row mt-3 gap-10">
-          <div className="left-design text-left flex flex-col gap-3">
+        <div className="design-content grid grid-cols-1 md:grid-cols-2 mt-3 gap-10">
+        <div className="left-design md:text-left text-center flex flex-col gap-3 w-full max-md:place-self-center">
             <div className='font-semibold text-xl'>
             I strive to build innovative and scalable fintech solutions by leveraging quantitative modeling, financial software development, automated analysis, and AI-powered predictions to enhance performance, drive data-driven insights, and optimize financial decision-making.
             </div>
             
-            <div className='font-semibold text-xl flex items-center gap-2'>
-              See all of my 
-              <a href="https://github.com/Sjviray814" target='blank()' className="flex items-center gap-1 underline cursor-pointer">
+            <div className='font-semibold text-xl items-center gap-2'>
+              See all of my&nbsp;
+              <a href="https://github.com/Sjviray814" target='blank()' className=" gap-1 underline cursor-pointer">
                 <span>Fintech Projects</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
               </a>
-            </div>
           </div>
         </div>
 
         
-        <div className="right-design">
+        <div className="right-design hidden md:block">
           <div className="accordion flex flex-col gap-3 font-semibold text-xl">
             {accordionData.map(({ title, content }) => (
               <Accordion title={title} content={content}/>
@@ -58,9 +53,9 @@ function Fintech() {
           </div>
         </div>
       </div>
-      <div className="design-project-title text-left mt-15 text text-2xl font-semibold">My most recent works</div>
+      <div className="design-project-title text-center md:text-left mt-15 text text-2xl font-semibold">My most recent works</div>
       
-      <div className="design-projects mt-5 grid grid-cols-3">
+      <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto min-h-[350px]">
             
             <Project title={'r/WallStreetBets'} content={`For this project, I used Python to analyze WallStreetBets subreddit activity and its impact on popular stock prices and trading volume. By training a machine learning model, I predicted stock movements based on WSB trends and provided actionable recommendations for investors.`} year={'2025'} technologies={['Python', 'Pandas', 'Plotly', 'SKLearn']} 
                 link='https://www.kaggle.com/code/sjviray/how-does-wallstreetbets-affect-the-stock-market' image={wsbImage}/>

@@ -21,7 +21,7 @@ function DataScience() {
 
     return (
       <>
-      <div className="design-container flex flex-col gap-x-10 ml-0 mt-10">
+      <div className="design-container flex flex-col gap-x-10 ml-0 mt-50 sm:mt-5">
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 03:</div>
@@ -30,38 +30,29 @@ function DataScience() {
           
         </div>
 
-      <div className="design-content flex flex-row mt-3 gap-10">
-        <div className="design-content flex flex-row mt-3 gap-10">
-          <div className="left-design text-left flex flex-col gap-3">
+      <div className="design-content grid grid-cols-1 md:grid-cols-2 mt-3 gap-10">
+        <div className="left-design md:text-left text-center flex flex-col gap-3 w-full max-md:place-self-center">
             <div className='font-semibold text-xl'>
             I am working to develop scalable and efficient data-driven solutions by leveraging data analysis, machine learning, predictive modeling, and visualization to uncover insights, enhance decision-making, and drive meaningful results.
             </div>
             
-            <div className='font-semibold text-xl flex items-center gap-2'>
-              See my 
-              <a href="https://www.kaggle.com/sjviray" target='blank()' className="flex items-center gap-1 underline cursor-pointer">
-                <span>Data Science Projects on Kaggle</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
+            <div className='font-semibold text-xl gap-2 whitespace-nowrap'>
+              See my&nbsp;
+              <a href="https://www.kaggle.com/sjviray" target='blank()' className="gap-1 underline cursor-pointer whitespace-nowrap">
+                Kaggle
               </a>
-            </div>
-            <span className='font-semibold text-xl flex items-center gap-2'>
-              Also see my
-              <a href="https://www.github.com/sjviray814" target='blank()' className="flex items-center gap-1 underline cursor-pointer">
-                <span>Github</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
+              <br></br>
+              Also see my&nbsp;
+              <a href="https://www.github.com/sjviray814" target='blank()' className="gap-1 underline cursor-pointer whitespace-nowrap">
+                Github
               </a>
-            </span>
 
 
           </div>
         </div>
 
         
-        <div className="right-design">
+        <div className="right-design hidden md:block">
           <div className="accordion flex flex-col gap-3 font-semibold text-xl">
             {accordionData.map(({ title, content }) => (
               <Accordion title={title} content={content}/>
@@ -69,9 +60,9 @@ function DataScience() {
           </div>
         </div>
       </div>
-      <div className="design-project-title text-left mt-15 text text-2xl font-semibold">My most recent works</div>
+      <div className="design-project-title text-center md:text-left mt-15 text text-2xl font-semibold">My most recent works</div>
       
-      <div className="design-projects mt-5 grid grid-cols-3">
+      <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto min-h-[350px]">
             
             <Project title={'Kidney Stone Analysis'} content={`This project is a cutting-edge feature selection and engineering initiative aimed at developing a predictive model to identify the likelihood of kidney stone formation prior to their occurrence. By meticulously analyzing and refining key biomarkers and risk factors, this advanced framework harnesses data-driven insights to enable proactive healthcare interventions, revolutionizing early detection and preventive care strategies.`} year={'2024'} technologies={['Python', 'Pandas', 'Plotly', 'SKLearn']} 
                 link='https://www.kaggle.com/code/sjviray/kidney-stone-prediction-competition' image={kidneyImage}/>

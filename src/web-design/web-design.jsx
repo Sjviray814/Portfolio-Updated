@@ -38,27 +38,22 @@ function WebDesign() {
           
         </div>
 
-      <div className="design-content flex flex-row mt-3 gap-10">
-        <div className="design-content flex flex-row mt-3 gap-10">
-          <div className="left-design text-left flex flex-col gap-3">
+      <div className="design-content grid grid-cols-1 md:grid-cols-2 mt-3 gap-10">
+          <div className="left-design md:text-left text-center flex flex-col gap-3 w-full max-md:place-self-center">
             <div className='font-semibold text-xl'>
               Whether it's Web Design, Fullstack Development, UI/UX, or Mobile App Creation, I strive to create seamless, efficient, and scalable digital technologies with practical applications.
             </div>
             
-            <div className='font-semibold text-xl flex items-center gap-2'>
-              See all of my 
-              <a href="https://github.com/Sjviray814" target='blank()' className="flex items-center gap-1 underline cursor-pointer">
+            <div className='font-semibold text-xl items-center gap-2'>
+              See all of my&nbsp;
+              <a href="https://github.com/Sjviray814" target='blank()' className="flex gap-1 underline cursor-pointer">
                 <span>Software Development Projects</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
               </a>
-            </div>
           </div>
         </div>
 
         
-        <div className="right-design">
+        <div className="right-design hidden md:block">
           <div className="accordion flex flex-col gap-3 font-semibold text-xl">
             {accordionData.map(({ title, content }) => (
               <Accordion title={title} content={content}/>
@@ -66,9 +61,9 @@ function WebDesign() {
           </div>
         </div>
       </div>
-      <div className="design-project-title text-left mt-15 text text-2xl font-semibold">My most recent works</div>
+      <div className="design-project-title text-center md:text-left mt-15 text text-2xl font-semibold">My most recent works</div>
       
-      <div className="design-projects mt-5 grid grid-cols-3">
+      <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto">
             
             <Project title={'DistrictInsights'} content={`DistrictInsights is a web app built with the Mapbox and Plotly libraries that delivers essential voting data for congressional districts. 
                 Designed to educate and empower citizens nationwide, it offers clear, interactive insights to help voters make informed decisions.`} year={'2024'} technologies={['HTML', 'CSS', 'JavaScript', 'Python', 'Pandas', 'Mapbox', 'Plotly']} 
