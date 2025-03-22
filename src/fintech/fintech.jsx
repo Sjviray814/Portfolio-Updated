@@ -1,10 +1,10 @@
 import './fintech.css'
-import Accordion from '/Users/sjviray814/portfolio-website/src/Accordion/Accordion.jsx'
-import Project from '/Users/sjviray814/portfolio-website/src/Project/Project.jsx';
+import Accordion from '../Accordion/Accordion.jsx'
+import Project from '../Project/Project.jsx';
 
-import wsbImage from '/Users/sjviray814/portfolio-website/src/assets/wsb.png';
-import tipsImage from '/Users/sjviray814/portfolio-website/src/assets/tips.png';
-import spyImage from '/Users/sjviray814/portfolio-website/src/assets/spy.png';
+import wsbImage from '../assets/wsb.png';
+import tipsImage from '../assets/tips.png';
+import spyImage from '../assets/spy.png';
 
 function Fintech() {
 

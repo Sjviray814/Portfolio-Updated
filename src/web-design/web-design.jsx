@@ -1,10 +1,10 @@
 import './web-design.css'
-import Accordion from '/Users/sjviray814/portfolio-website/src/Accordion/Accordion.jsx'
-import Project from '/Users/sjviray814/portfolio-website/src/Project/Project.jsx';
+import Accordion from '../Accordion/Accordion.jsx'
+import Project from '../Project/Project.jsx';
 
-import districtImage from '/Users/sjviray814/portfolio-website/src/assets/district-insights.png';
-import lastnamleImage from '/Users/sjviray814/portfolio-website/src/assets/lastnamle.png';
-import scraperImage from '/Users/sjviray814/portfolio-website/src/assets/scraper.png';
+import districtImage from '../assets/district-insights.png';
+import lastnamleImage from '../assets/lastnamle.png';
+import scraperImage from '../assets/scraper.png';
 
 function WebDesign() {
 

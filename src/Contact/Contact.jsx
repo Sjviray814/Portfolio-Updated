@@ -1,8 +1,8 @@
 import './Contact.css'
 
-import linkedinImage from '/Users/sjviray814/portfolio-website/src/assets/linkedin.svg';
-import githubImage from '/Users/sjviray814/portfolio-website/src/assets/github.svg';
-import emailImage from '/Users/sjviray814/portfolio-website/src/assets/email.svg';
+import linkedinImage from '../assets/linkedin.svg';
+import githubImage from '../assets/github.svg';
+import emailImage from '../assets/email.svg';
 
 function Contact() {
 

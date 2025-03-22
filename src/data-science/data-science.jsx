@@ -1,10 +1,10 @@
 import './data-science.css'
-import Accordion from '/Users/sjviray814/portfolio-website/src/Accordion/Accordion.jsx'
-import Project from '/Users/sjviray814/portfolio-website/src/Project/Project.jsx';
+import Accordion from '../Accordion/Accordion.jsx'
+import Project from '../Project/Project.jsx';
 
-import kidneyImage from '/Users/sjviray814/portfolio-website/src/assets/kidney.png';
-import enzymeImage from '/Users/sjviray814/portfolio-website/src/assets/enzyme.png';
-import collegeImage from '/Users/sjviray814/portfolio-website/src/assets/college.png';
+import kidneyImage from '../assets/kidney.png';
+import enzymeImage from '../assets/enzyme.png';
+import collegeImage from '../assets/college.png';
 
 function DataScience() {
 
