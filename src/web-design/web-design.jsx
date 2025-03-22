@@ -44,10 +44,10 @@ function WebDesign() {
               Whether it's Web Design, Fullstack Development, UI/UX, or Mobile App Creation, I strive to create seamless, efficient, and scalable digital technologies with practical applications.
             </div>
             
-            <div className='font-semibold text-xl items-center gap-2'>
+            <div className='font-semibold text-xl gap-2 whitespace-nowrap'>
               See all of my&nbsp;
-              <a href="https://github.com/Sjviray814" target='blank()' className="flex gap-1 underline cursor-pointer">
-                <span>Software Development Projects</span>
+              <a href="https://github.com/Sjviray814" target='blank()' className="gap-1 underline cursor-pointer">
+                <br className='lg:hidden'></br>Software Development Projects
               </a>
           </div>
         </div>

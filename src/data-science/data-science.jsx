@@ -15,7 +15,7 @@ function DataScience() {
     },
     {
       title: 'Future Goals',
-      content: `I aim to expand my expertise in full-stack development by building scalable web applications and mastering cloud technologies. I also plan to contribute to open-source projects and enhance my skills in AI-powered software solutions.`
+      content: `I aim to deepen my expertise in data science by building scalable machine learning models and enhancing my skills in data engineering and big data analytics. I also plan to explore AI-driven financial forecasting and contribute to open-source data science projects.`
     }
   ];
 

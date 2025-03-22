@@ -20,7 +20,7 @@ function Contact() {
         id="github">
         <a className="logo" href="https://github.com/Sjviray814" target="_blank"><img src={githubImage}
             className="w-40 h-40 filter invert min-w-[100px]"></img></a>
-        <a className="handle white text-6xl p-0 hover:underline text font-bold" href="https://github.com/Sjviray814"
+        <a className="handle white xl:text-6xl text-5xl p-0 hover:underline text font-bold" href="https://github.com/Sjviray814"
           target="_blank">@Sjviray814</a>
       </div>
 
@@ -31,7 +31,7 @@ function Contact() {
         id="linkedin">
         <a className="logo" href="https://www.linkedin.com/in/stephen-viray/" target="_blank"><img
             src={linkedinImage} className="filter invert w-40 h-40 min-w-[100px]"></img></a>
-        <a className="handle white text-6xl p-0 hover:underline text font-bold" href="https://www.linkedin.com/in/stephen-viray/"
+        <a className="handle white text-5xl p-0 hover:underline text font-bold" href="https://www.linkedin.com/in/stephen-viray/"
           target="_blank">Stephen Viray</a>
       </div>
 
