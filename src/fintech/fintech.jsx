@@ -21,7 +21,7 @@ function Fintech() {
 
     return (
       <>
-      <div className="design-container flex flex-col gap-x-10 ml-0 mt-30 mb-30 sm:mt-10 sm:mb-5">
+      <div className="design-container flex flex-col gap-x-10 ml-0 mt-30 mb-50 sm:mt-10 sm:mb-5">
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 02:</div>
