@@ -8,7 +8,7 @@ function Contact() {
 
     return (
       <>
-      <section className="bg-4 max-sm:mt-15">
+      <section className="bg-4 max-sm:mt-25">
     <div className="hide white text-7xl xl:text-left text-center xl:ml-64 leading-snug tracking-wide pt-10 header"
       id="contact-description">Contact Me</div>
 

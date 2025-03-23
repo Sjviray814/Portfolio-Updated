@@ -21,7 +21,7 @@ function DataScience() {
 
     return (
       <>
-      <div className="design-container flex flex-col gap-x-10 ml-0 mt-50 sm:mt-5">
+      <div className="design-container flex flex-col gap-x-10 ml-0 mt-50 sm:mt-0 mb-30 sm:mb-0">
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 03:</div>

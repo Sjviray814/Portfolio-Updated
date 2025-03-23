@@ -29,7 +29,7 @@ function WebDesign() {
 
     return (
       <>
-      <div className="design-container flex flex-col gap-x-10 ml-0 mt-30">
+      <div className="design-container flex flex-col gap-x-10 ml-0 mt-30 mb-30">
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 01:</div>
@@ -63,7 +63,7 @@ function WebDesign() {
       </div>
       <div className="design-project-title text-center md:text-left mt-15 text text-2xl font-semibold">My most recent works</div>
       
-      <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto">
+      <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto min-h-[350px]">
             
             <Project title={'DistrictInsights'} content={`DistrictInsights is a web app built with the Mapbox and Plotly libraries that delivers essential voting data for congressional districts. 
                 Designed to educate and empower citizens nationwide, it offers clear, interactive insights to help voters make informed decisions.`} year={'2024'} technologies={['HTML', 'CSS', 'JavaScript', 'Python', 'Pandas', 'Mapbox', 'Plotly']} 
