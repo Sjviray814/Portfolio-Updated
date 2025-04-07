@@ -4,7 +4,8 @@ import Project from '../Project/Project.jsx';
 
 import kidneyImage from '../assets/kidney.png';
 import enzymeImage from '../assets/enzyme.png';
-import collegeImage from '../assets/college.png';
+// import collegeImage from '../assets/college.png';
+import pkImage from '../assets/prophet.png';
 
 function DataScience() {
 
@@ -25,7 +26,7 @@ function DataScience() {
 
         <div className="design-title flex items-start flex-col">
           <div className='text font-semibold text-lg mb-2'>Skill 03:</div>
-          <div className='text font-bold text-4xl'>Data Science</div>
+          <div className='text font-bold text-4xl'>Data Science/Machine Learning</div>
           <hr className='border-[#636461] w-[100%] h-1 mt-5'></hr>
           
         </div>
@@ -63,6 +64,9 @@ function DataScience() {
       <div className="design-project-title text-center md:text-left mt-15 text text-2xl font-semibold">My most recent works</div>
       
       <div className="design-projects mt-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-auto min-h-[350px]">
+
+            <Project title={'PK Prophet'} content={`PK Prophet is an AI-powered web application used to predict the location of penalty shots based on the kicker’s body language and run up. All the user has to do is upload a video of a penalty kick, and the pre-processor and LSTM model will extract the striker’s pose, and the coordinates of the goal. Using this data, the machine-learning model will estimate the location of the penalty kick without having to see its actual trajectory.`} year={'2025'} technologies={['Python', 'Flask', 'NEXT.JS', 'OpenCV', 'TensorFlow', 'Tailwind']} 
+                link='https://github.com/SaucyBoi21/Ramblin-Hacks' image={pkImage}/>
             
             <Project title={'Kidney Stone Analysis'} content={`This project is a cutting-edge feature selection and engineering initiative aimed at developing a predictive model to identify the likelihood of kidney stone formation prior to their occurrence. By meticulously analyzing and refining key biomarkers and risk factors, this advanced framework harnesses data-driven insights to enable proactive healthcare interventions, revolutionizing early detection and preventive care strategies.`} year={'2024'} technologies={['Python', 'Pandas', 'Plotly', 'SKLearn']} 
                 link='https://www.kaggle.com/code/sjviray/kidney-stone-prediction-competition' image={kidneyImage}/>
@@ -70,8 +74,7 @@ function DataScience() {
             <Project title={'Enzyme Classification'} content={`I designed and implemented a K-Nearest Neighbors (KNN) classifier to investigate the complexities of multi-label classification for enzyme substrates. By leveraging advanced machine learning techniques, this project delved into the intricate relationships between enzymes and their substrates, enabling precise categorization and uncovering insights with potential applications in bioinformatics and biochemical research.`} year={'2024'} technologies={['Python', 'Pandas', 'Plotly', 'SKLearn']} 
                 link='https://www.kaggle.com/code/sjviray/sjviray-enzyme-classification-competition' image={enzymeImage}/>
 
-            <Project title={'College Predictor'} content={`I developed a comprehensive analytical framework and predictive model to assist students in evaluating their likelihood of university admission. By analyzing historical admissions data and key influencing factors, this data-driven solution provides personalized insights, empowering students to make informed decisions and strategically enhance their academic and extracurricular profiles for optimal outcomes.`} year={'2024'} technologies={['Python', 'Pandas', 'Plotly', 'SKLearn']} 
-                link='https://www.kaggle.com/code/sjviray/sjviray-college-admission-prediction-data-science' image={collegeImage}/>
+            
       </div>
 
     </div>
